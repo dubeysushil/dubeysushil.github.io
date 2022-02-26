@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Example of Bootstrap 3 Carousel</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="pb.css">
+  <link rel="shortcut icon" type="image/ico" href="logo.jpg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+  <header id="home">
+    <nav id="navbar" class="navbar" style="background-color: transparent;opacity:0.5;margin-left: 0%;">
+      <ul id="nav">
+
+        <li class="current"><a class="smoothscroll" href="#home"><i>HOME</i></a></li>
+        <li class><a class="smoothscroll" href="#about"><i>ABOUT</i></a></li>
+        <li class><a class="smoothscroll" href="#resume"><i>RESUME</i></a></li>
+        <li class><a class="smoothscroll" href="#portfolio"><i>PROJECTS</i></a></li>
+        <li class><a class="smoothscroll" href="#contact"><i>CONTACT</i></a></li>
+      </ul>
+      <ul class="social">
+
+        <li><a href="https://www.linkedin.com/in/sushil-dubey1/"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/dubeysushil/Dubey_Sushil_002953159"><i class="fa fa-github"></i></a></li>
+        <li><a href="mailto:dubey.su@northeastern.edu"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://www.instagram.com/_sushil.dubey/"><i class="fa fa-instagram"></i></a></li>
+
+      </ul>
+    </nav>
+
+    <div class="row banner">
+      <div class="banner-text">
+        <h1 class="heads">SUSHIL DUBEY
+        </h1>
+        <h3>
+          "They say Knowledge is power, however the power is only effective when it is<br> being constructively used to
+          solve a real world problem"
+        </h3>
+        <hr>
+
+      </div>
+  </header>
+  <div class="bs-example" style="background-color: black;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="https://ace.lntinfotech.com/#/home"></a>
+          <img src="portfolio1.JPG" alt="First Slide" style="height: 300px;">
+        </div>
+        <div class="item">
+          <a href="https://github.com/bendi-p/Aed_Final_Project">
+            <img src="fi.jpeg" alt="Second Slide" style="height: 300px;">
+        </div>
+
+      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row" id="about">
+      <div class="col-3" id="photoDiv">
+        <img class="profile-pic" src="profilepic1.jpeg">
+      </div>
+      <div class="col-6" id="ab-m">
+        <h2 style="color: white;">ABOUT ME</h2><br>
+        <P style="color: darkgoldenrod;">
+          "The future that is driven by technology fuels my passion for making an original contribution in the domain
+          and work towards the advancements that not only benefit the industry as a whole but also the common man. My
+          undergraduate studies acquainted me with a vast range of subjects including Object-Oriented Programming,
+          Relational Database Management Systems, and Cloud Computing that helped me learn in-depth about infrastructure
+          support and the aspects of hardware, software, cloud computing, and storage."
+          <br>
+          <br>
+          "My association with the company as a Full Stack Software Developer not only helped me work on my technical
+          skills but also on how to comprehend the business implications of the processes. Working on two projects
+          ‘Automate Population of Retail Loss Model Output for 14A’ and ‘NAUT - IP Development (ACE Portal)’ expanded my
+          skillset as I gained expertise in tools such as React, JAVA, SQL, Oracle, Angular, Node JS, TypeScript,
+          AngularJS, JavaScript and MongoDB."
+          <BR>
+          <BR>
+          "Apart from professional expertise my other interest includes photography, music, cooking, and playing sports
+          such as football, cricket"
+        </P>
+        <div class="row">
+          <div class="columns contact-details" id="ccd">
+            <h2 style="color: white;">Contact Details</h2><br>
+            <p class="address">
+              <span>Sushil Dubey</span>
+              <br><br>
+              <span>
+                109 Peterborough Street
+                <br><br>
+                Boston, MA, US - 02115
+              </span>
+              <br><br>
+              <a style="color: white;" href="mailto:dubey.su@northeastern.edu">dubey.su@northeastern.edu</a>
+            </p>
+          </div>
+          <div class="columns download">
+            <p>
+              <!-- <button id="btn" type="button" href="file:///C:/Users/Divya%20Sharma/Downloads/Assignment2%20(2)%20(1)/Assignment2%20(1)/Assignment2/SUSHIL%20DUBEY_Final.pdf" class="btn btn-dark"><i class="fa fa-download"></i>Download Resume</button> -->
+              <a href="file:///C:/Users/Divya%20Sharma/Downloads/Assignment2%20(2)%20(1)/Assignment2%20(1)/Assignment2/SUSHIL%20DUBEY_Final.pdf"
+                class="btn btn-dark" id="btn" role="button" data-bs-toggle="button"><i
+                  class="fa fa-download"></i>Download Resume</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+  <div class="container">
+    <section id="resume">
+      <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>EDUCATION</span>
+          </h1>
+        </div>
+        <div class="nine columns main-col" style="margin-top: -10%;">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Northeastern University</h3>
+              <p class="info">
+                "Masters in Information Systems"
+                <span>.</span>
+                <em class="date">September 2021 to Present</em>
+              </p>
+
+            </div>
+          </div>
+          <div class="row item">
+            <div class="tweleve columns">
+              <h3>Acropolis Technical Campus</h3>
+              <p class="info">
+                "Bachelor of Engineering"
+                <span>.</span>
+                <em class="date">May 2018</em>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>WORK</span>
+          </h1>
+        </div>
+        <div class="nine columns main-col" style="margin-top: -10%;">
+          <div class="row item">
+            <div class="twelve columns">
+              <h3>Larsen & Toubro Infotech</h3>
+              <p class="info">
+                "Software Engineer"
+                <span>.</span>
+                <em class="date">July 2018 - August 2021</em>
+              </p>
+
+            </div>
+          </div>
+          <div class="row item">
+            <div class="tweleve columns">
+              <h3>Larsen & Toubro Infotech</h3>
+              <p class="info">
+                "Software Engineer Trainee"
+                <span>.</span>
+                <em class="date">June 2018 - July 2018</em>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row education">
+        <div class="three columns header-col">
+          <h1><span>SKILLS</span>
+          </h1>
+        </div>
+        <div class="nine columns main-col" style="margin-top: -10%;">
+          <div class="row item">
+            <div class="twelve columns">
+
+              <div class="container mt-3"
+                style="margin-right: 49%;margin-left: 38%;padding-right: 42%;margin-top: -6%;">
+
+                <div class="progress" style="margin-top: 15%;">
+                  <div class="progress-bar" style="width:90%"></div>
+
+                </div>
+                <span><em class="date">ANGULAR</em></span>
+              </div>
+              <div class="container mt-3" style="margin-right: 49%;margin-left: 38%;padding-right: 42%;margin-top: 3%;">
+
+                <div class="progress">
+                  <div class="progress-bar" style="width:80%"></div>
+
+                </div>
+                <span><em class="date">JAVA</em></span>
+              </div>
+              <div class="container mt-3" style="margin-right: 49%;margin-left: 38%;padding-right: 42%;">
+
+                <div class="progress" style="margin-top: -13%;">
+                  <div class="progress-bar" style="width:95%"></div>
+
+                </div>
+                <span><em class="date">TYPESCRIPT/JAVASCRIPT</em></span>
+              </div>
+              <div class="container mt-3" style="margin-right: 49%;margin-left: 38%;padding-right: 42%;">
+
+                <div class="progress" style="margin-top:-14%">
+                  <div class="progress-bar" style="width:60%"></div>
+
+                </div>
+                <span><em class="date">NODEJS</em></span>
+              </div>
+              <div class="container mt-3" style="margin-right: 49%;margin-left: 38%;padding-right: 42%;">
+
+                <div class="progress" style="margin-top: -15%;">
+                  <div class="progress-bar" style="width:50%"></div>
+
+                </div>
+                <span><em class="date">HTML/CSS</em></span>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  </section>
+  </div>
+  <div class="container">
+    <div class="jumbotron">
+
+      <section id="portfolio">
+
+        <div class="row" style="display: inline;">
+          <i>
+            <h3 style="text-align: center ;margin-bottom: 3%;">CHECK OUT SOME OF MY PROJECTS</h3>
+          </i>
+          <div class="card">
+            <a href="https://ace.lntinfotech.com/#/home">
+              <img src="portfolio1.JPG" class="rounded" alt="..." style="height: 133px; width: 94%;">
+              <div class="card-body">
+                <h5 class="card-title">ACE-THE AUTOMATION PORTAL</h5>
+
+
+              </div>
+          </div>
+          <div class="card2">
+            <a href="https://github.com/bendi-p/Aed_Final_Project">
+              <img src="portfolio2.jpg" class="rounded" alt="..." style="height: 133px;width: 78%;">
+              <div class="card-body">
+                <h5 class="card-title">COVID VACCINE MANAGEMENT PORTAL</h5>
+
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div class="container-fluid">
+      <section id="contact">
+        <div class="row section-head">
+          <div class="two columns header-col">
+            <h1>
+
+              <span>GET IN TOUCH.</span>
+            </h1>
+          </div>
+          <div class="ten columns">
+            <div class="widget widget_contact" style="margin-top: -87px;
+              margin-left: 29%; color: white;">
+              <h4>Contact Details</h4><br>
+              <p class="address" style="color: grey;">
+                Sushil Dubey
+                </br>
+                <br>
+                109 Peterborough Street
+                </br>
+                <br>
+                Boston, MA 02215 US
+                </br>
+                <br>
+                <a href="tel:888-555-5555"> 888-555-5555</a>
+
+                </br><br>
+                <a href="mailto:dubey.su@northeastern.edu">dubey.su@northeastern.edu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+      </section>
+    </div>
+    <footer style="width: 134%;
+        margin-left: -22%;padding-left: 9%;">
+
+      <div class="row">
+        <div class="twelve columns footerDiv" style="margin-left: -2%;width:107%;">
+          <ul class="social-links">
+            <li>
+              <a href="https://www.linkedin.com/in/sushil-dubey1/">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/dubeysushil/Dubey_Sushil_002953159">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:dubey.su@northeastern.edu">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/_sushil.dubey/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+
+          </ul>
+          <ul class="copyright">
+            <li id="cr">&copy; Copyright 2022 Sushil </li>
+          </ul>
+
+
+
+        </div>
+
+      </div>
+    </footer>
+</body>
+
+</html>
