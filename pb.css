@@ -1,0 +1,259 @@
+body  {
+  
+    background-color: #111;
+    height: 100%;
+    margin: unset;
+    background-repeat: no-repeat;
+   /* background-size: 1300px 600px;*/
+   background-size: cover;
+   overflow-x: hidden;
+    
+  }
+
+  .scrolldown{
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgb(0 0 0/80%);
+    margin-top: 10%;
+  }
+  header{
+    position: relative;
+    /* min-height: 500px; */
+    /* width: 100%; */
+    -webkit-background-size:cover !important;
+    background-image: url(sb-blog-programming.jpg);
+    text-align: center;
+    overflow: hidden;
+    color: whitesmoke;
+    height: 575px;
+    /* width: 100%; */
+  }
+
+  .heads{
+    font-size: 70px;
+    margin-top: 200px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  #resume {
+    background: #dddddd;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+  }
+  
+  .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+  }
+  #resume .header-col {
+    padding-top: 9px;
+  }
+  .card2{
+    width: 27%;
+    float: right;
+    padding-left: -61%;
+    margin-right: 10%;
+    
+  }
+  .card img:hover {
+    opacity: 0.8;
+  }
+  .card img {
+    opacity: 1; 
+    cursor: pointer; 
+  }
+
+  .card2 img:hover {
+    opacity: 0.8;
+  }
+  .card2 img {
+    opacity: 1; 
+    cursor: pointer; 
+  }
+
+  .card{
+    width: 23%;
+    margin-left: 19%;
+    float: left;
+  }
+  #resume h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+    margin-left: 5%;
+  }
+  #resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+    margin-left: 40%;
+  }
+  #resume h3 {
+    margin-left: 40%;
+    font: 25px/30px 'opensans-bold', sans-serif;
+  }
+  #navbar{
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    opacity: 0.5;
+  }
+  header .social{
+    font-size: 30px;
+    text-shadow: 0px 1px 2px rgb(0 0 0/80%);
+  }
+
+  .social li:first-child {
+    margin-left: 42%;
+  }
+  .social-links li:first-child{
+    margin-left: 43%;
+  }
+.smoothscroll{
+  color: #f1f1f1;
+}
+
+ul #nav li a{
+    display: inline-block;
+    padding: 8px 13px;
+    line-height: 32px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+  }
+  li {
+    float: left;
+  }
+  li:first-child {
+    margin-left: 35%;
+  }
+  .carousel{
+    background: black
+    /* margin-top: 20px; */
+}
+.carousel .item img{
+    background-color: #111;
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+/* .bs-example{
+	margin: 20px;
+} */
+.profile-pic{
+  margin-left: 10%;
+height: 250px;
+width: 250px;
+margin-top: 89px;
+border-radius: 59%;
+}
+#ab-m{
+margin-left: 40%;
+    /* margin-top: -27%; */
+}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #6F4E37;
+  }
+
+  .container{
+      margin-top: 10%;
+  }
+
+  #photoDiv{
+      float: left;
+  }
+
+  .address{
+      color: darkgoldenrod;
+  }
+  #ccd{
+      margin-left: 2%;
+  }
+
+  #contact h1:before {
+    font-family: 'FontAwesome';
+    content: "\f0e0";
+    padding-right: 10px;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    /* float: left; */
+    color: #ebeeee;
+    margin-left: 10%;
+  }
+  #contact a, #contact a:visited {
+    color: #11ABB0;
+  }  
+  #contact h4 {
+  
+    font: 16px/24px 'opensans-bold', sans-serif;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+  }
+  #contact .section-head {
+    margin-bottom: 42px;
+  }
+  #contact {
+    background: #191919;
+    padding-top: 96px;
+    padding-bottom: 102px;
+    color: #636363;
+  }
+  
+  #contact h1 span {
+    display: none;
+  }
+  #contact .header-col {
+    padding-top: 6px;
+  }
+ 
+ .btn{
+    margin-left: 35%;
+    margin-top: -24%;
+    color: black;
+      background-color: white;
+      border: 1px solid black;}
+    footer .social-links {
+      /* margin: 18px 0 30px 0; */
+      padding: 0;
+      font-size: 30px;
+      /* margin-left: 6%; */
+    }
+    footer a, footer a:visited {
+      color: #525252;
+    }
+    .footer{
+      width: 134%;
+    margin-left: -3%;
+    }
+    #cr{
+      
+      color: #dddddd;
+      margin-left: 46%;
+    }
